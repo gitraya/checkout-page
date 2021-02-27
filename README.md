@@ -43,6 +43,9 @@
 
 ## Features
 
+- There is validation on the form to prevent users from entering wrong data
+- There is a calculation feature in the user's shopping cart
+
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
 
 

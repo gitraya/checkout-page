@@ -55,7 +55,7 @@ function formValidation() {
     // Check if alphabetical characters only
     function checkAlfa(input) {
         let check = false;
-        const alfa = /^[a-zA-Z]+$/;
+        const alfa = /^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$/;
         if (alfa.test(input.value.trim())) {
             showSuccess(input);
             check = true;
